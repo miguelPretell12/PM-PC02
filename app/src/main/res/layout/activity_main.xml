@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Practica 02"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_ecuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuacion de 2° grado" />
+
+    <Button
+        android:id="@+id/btn_implicito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicito - Ingrese a youtube y busque sus videos preferidos" />
+
+    <Button
+        android:id="@+id/btn_explicito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicito" />
+</LinearLayout>
